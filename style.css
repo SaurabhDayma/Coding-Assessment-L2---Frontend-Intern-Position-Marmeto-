@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+  }
+  #stripe {
+      background-color: white;
+      text-align: center;
+      height: 50px;
+      color: black;
+  }
+  
+  .tab{
+      border: none;
+      background: none;
+      text-transform: uppercase;
+      height: 100%;
+      font-weight: 700;
+      color: black;
+      background-color: rgb(210, 210, 210);
+      letter-spacing: 1px;
+      font-size: inherit;
+      transition: all 0.3s;
+      outline: none;
+      width: 200px;
+}
+  
+  button:hover {
+      color: white;
+      background: black;
+}
+  .selected {
+      color: white;
+      background: black;
+}
+
+.product-card {
+    border:none;
+    border-radius : 20px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 150px;
+    float: left;
+}
+.product-card img {
+    width: 200px;
+    background-color: gray;
+    height: auto;
+    border-radius: 20px;
+}
+.product-info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.product-info p{
+    text-decoration: line-through;
+}
+.product-card h5{
+    
+        white-space: nowrap; 
+        width: 50px; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+}
+.prod-button
+{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
